@@ -6,7 +6,7 @@
     font-style: normal;
   }
   
-  .sedan-regular-italic {
+.sedan-regular-italic {
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: italic;
@@ -24,16 +24,19 @@ height: 70vh;
 }
 
 /*NavBar and Accent Section*/
-ul{
+.navbar-nav{
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: end;
 width: 100%;
 }
+
 .accent-div{
 background-color:whitesmoke;
 text-decoration:hidden;
 margin:0;
 padding:2px;
 }
+
+/*Filter Section*/

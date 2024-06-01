@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(251, 226, 255, 0.735);
+}
+
+.accent-div{
+    background-color: darkorchid;
+    text-decoration:hidden;
+}
+
+.page-title{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title{
+    font-size: x-large;
+    font-weight: 600;
+}

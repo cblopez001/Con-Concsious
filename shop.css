@@ -180,3 +180,21 @@ footer  a{
   color: #fff;
   text-decoration: none;
 }
+
+/*Checkout Section*/
+.checkout-container{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+
+.checkout-container h2{
+  font-size: 100px;;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom:5%;
+}

@@ -38,10 +38,17 @@ ul{
     padding:2px;
 }
 
+.carousel-accent-div{
+    background-color:#262626;
+    text-decoration:hidden;
+    margin:0;
+    padding:5px;
+}
+
 /*Page Link Section*/
 .link-container{
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
+    padding: 8px;
 }
 
 .link-container > ul{
@@ -109,7 +116,9 @@ li{
 /*Subscription Section*/
 .subscription-container{
     background-color: #262626;
-    color: rgba(225, 190, 231);
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.5em;
     padding: 50px;
     display: flex;
     flex-wrap:wrap;
@@ -118,7 +127,6 @@ li{
     justify-content: space-evenly;
     text-align: center;
     margin: 10px;
-    padding: 10px;
 }
 .sub-email-container{
     display:flex;
@@ -165,6 +173,7 @@ li{
     padding: 0 10px;
     cursor: pointer;
     border-radius: 5px;
+    font: 1.2em;
 }
 
 .sub-platform{

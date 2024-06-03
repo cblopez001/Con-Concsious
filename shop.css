@@ -39,6 +39,22 @@ padding:2px;
 }
 
 /*Store Banner Section*/
+.title-container{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+
+.title-container h2{
+  font-size: 100px;;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom:5%;
+}
 
 /*Merch Section*/
 .merch-container > .row{
@@ -158,4 +174,9 @@ width: 35%;
 footer{
   background-color: #262626;
   color: #fff;
+}
+
+footer  a{
+  color: #fff;
+  text-decoration: none;
 }

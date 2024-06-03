@@ -100,7 +100,7 @@ li{
 
 .panel-text{
     color: #262626;
-    font-size: 40px;
+    font-size: 80px;
     font-weight: bold;
     text-align: center;
     padding:20px;
@@ -108,8 +108,8 @@ li{
 
 /*Subscription Section*/
 .subscription-container{
-    background-color: rgba(186, 104, 200, 0.605);
-    color: whitesmoke;
+    background-color: #262626;
+    color: rgba(225, 190, 231);
     padding: 50px;
     display: flex;
     flex-wrap:wrap;
@@ -134,8 +134,8 @@ li{
     justify-content: center;
 }
 .email-input i{
-    background-color:rgba(4, 4, 4, 0.779);
-    color: whitesmoke;
+    background-color:rgba(225, 190, 231);
+    color: #262626;
     width: 40px;
     line-height: 40px;
     border-radius: 5px;
@@ -159,8 +159,8 @@ li{
 }
 
 .btn{
-    background-color: rgba(4, 4, 4, 0.779);
-    color: whitesmoke;
+    background-color: rgba(225, 190, 231);
+    color:#262626;
     text-transform: capitalize;
     padding: 0 10px;
     cursor: pointer;
@@ -176,11 +176,16 @@ li{
 }
 
 .icon-links{
-    color: #fff;
+    color: rgba(225, 190, 231);
     font-size: 40px;
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.icon-links a {
+    text-decoration: none;
+    color: rgba(225, 190, 231);
 }
 
 i:hover{
@@ -188,8 +193,9 @@ i:hover{
 }
 
 /*User Review Section*/
-.review-container{
+.listener-container{
     margin-top:5%;
+    margin-bottom: 5%;
     padding: 10px;
 }
 
@@ -272,17 +278,16 @@ i:hover{
 }
 
 /*About Host Section*/
-.bio-container{
+.review-container{
     display:flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     margin: 10px;
-    padding: 10px;
 }
 
-.bio-container h2{
+.review-container h2{
     font-size: 100px;;
     text-align: center;
     font-weight: 400;
@@ -292,4 +297,9 @@ i:hover{
 footer{
     background-color: #262626;
     color: #fff;
+}
+
+footer  a{
+    color: #fff;
+    text-decoration: none;
 }

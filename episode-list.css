@@ -41,13 +41,21 @@ padding:2px;
 /*Page Header Section */
 
 .title-container{
-  display: flex;
+  display:flex;
   flex-direction: column;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   align-items: center;
-  width: 100%;
+  margin: 10px;
 }
 
+.title-container h2{
+  font-size: 100px;;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom:5%;
+}
 
 /*Filter Section*/
 .filter-container{
@@ -58,7 +66,7 @@ padding:2px;
   align-items: center;
   margin: 10px;
   padding: 10px;
-  background-color: aliceblue;
+  background-color: #262626;
 }
 
 .filter-wrapper{
@@ -73,11 +81,11 @@ padding:2px;
 
 .filter-wrapper li a{
   text-decoration:none;
-  color:whitesmoke;
+  color:#262626;
   padding:0.5rem 1rem;
-  border: 1px solid #262626;
-  background-color: #262626;
+  background-color: rgba(225, 190, 231);
   border-radius: 5px;
+  font-weight: bold;
 }
 
 .filter-wrapper li a:hover{
@@ -100,10 +108,11 @@ padding:2px;
   right: 0;
   padding: 0.40rem ;
   border: none;
-  background-color: #262626;
+  background-color: rgba(225, 190, 231);
   border-radius: 0px 5px 5px 0px;
   cursor: pointer;
   outline: none;
+  color: #262626;
 }
 
 .search form{
@@ -131,4 +140,9 @@ padding:2px;
 footer{
   background-color: #262626;
   color: #fff;
+}
+
+footer  a{
+  color: #fff;
+  text-decoration: none;
 }

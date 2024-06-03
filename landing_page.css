@@ -19,7 +19,7 @@
       }
       
 body{
-    background-color: rgba(225, 190, 231);
+    background-color: whitesmoke;
     height: 70vh;
 }
 
@@ -32,23 +32,30 @@ ul{
     width: 100%;
 }
 .accent-div{
-    background-color:whitesmoke;
+    background-color:rgb(176, 57, 232) ;
     text-decoration:hidden;
     margin:0;
     padding:2px;
 }
 
 .carousel-accent-div{
-    background-color:#262626;
+    background-color:rgb(176, 57, 232) ;
     text-decoration:hidden;
     margin:0;
     padding:5px;
 }
 
 /*Page Link Section*/
+    
+
 .link-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     margin: 5px;
     padding: 8px;
+    width: 100%;
+    height:0 auto
 }
 
 .link-container > ul{
@@ -132,8 +139,8 @@ li{
     display:flex;
     flex-wrap: wrap;
     flex-direction: column;
-    flex-wrap:wrap ;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .email-input{
@@ -142,7 +149,7 @@ li{
     justify-content: center;
 }
 .email-input i{
-    background-color:rgba(225, 190, 231);
+    background-color:rgb(176, 57, 232) ;
     color: #262626;
     width: 40px;
     line-height: 40px;
@@ -167,7 +174,7 @@ li{
 }
 
 .btn{
-    background-color: rgba(225, 190, 231);
+    background-color: rgb(176, 57, 232) ;
     color:#262626;
     text-transform: capitalize;
     padding: 0 10px;
@@ -185,7 +192,7 @@ li{
 }
 
 .icon-links{
-    color: rgba(225, 190, 231);
+    color: rgb(176, 57, 232) ;
     font-size: 40px;
     display:flex;
     flex-direction: row;
@@ -194,7 +201,7 @@ li{
 
 .icon-links a {
     text-decoration: none;
-    color: rgba(225, 190, 231);
+    color: rgb(176, 57, 232) ;
 }
 
 i:hover{

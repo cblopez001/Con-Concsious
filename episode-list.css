@@ -83,13 +83,13 @@ padding:2px;
   text-decoration:none;
   color:#262626;
   padding:0.5rem 1rem;
-  background-color: rgba(225, 190, 231);
+  background-color: whitesmoke;
   border-radius: 5px;
   font-weight: bold;
 }
 
 .filter-wrapper li a:hover{
-  background-color: whitesmoke;
+  background-color: rgba(225, 190, 231);
   color:#262626;
 }
 

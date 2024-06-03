@@ -39,6 +39,22 @@ padding:2px;
 }
 
 /*Store Banner Section*/
+.title-container{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+}
+
+.title-container h2{
+  font-size: 100px;;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom:5%;
+}
 
 /*Merch Section*/
 .merch-container > .row{
@@ -60,7 +76,23 @@ font-weight: bold;
 font-size: 1.2em;
 }
 
+.content-row {
+  margin-right:1.5em;
+  padding-bottom: 10px;
+  margin:20px;
+  display:flex;
+  align-items: center;
+}
+
 .cart-column{
+    border-bottom: 1PX solid black;
+    margin-right:1.5em;
+    padding-bottom: 10px;
+    margin-top:10px;
+    display:flex;
+    align-items: center;
+}
+.cart{
 border-bottom: 1PX solid black;
 margin-right:1.5em;
 padding-bottom: 10px;
@@ -137,7 +169,8 @@ width: 35%;
 
 .cart-total-price{
   color: #262626;
-  font-size: 1.1em;
+  font-size: 1.3em;
+  font-weight: bold;
   margin-right: 20px;
 }
 
@@ -145,12 +178,44 @@ width: 35%;
   display: block;
   margin: 40px auto 80px auto;
   font-size: 2.50em;
+  font-family: "Sedan", serif;
+  font-weight: 400;
+  font-style: normal;
 
 }
+ .cart-btn:hover{
+  background-color: rgb(226, 230, 255);
+  color:#262626;
+ 
+ }
 
 
 /*Footer Section*/
 footer{
   background-color: #262626;
   color: #fff;
+}
+
+footer  a{
+  color: #fff;
+  text-decoration: none;
+}
+
+/*Checkout Section*/
+.header-container{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.header-container h2{
+  font-size: 100px;;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-bottom:5%;
 }

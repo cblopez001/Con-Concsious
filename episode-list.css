@@ -1,4 +1,3 @@
- 
 
 *,.sedan-regular {
     font-family: "Sedan", serif;
@@ -6,7 +5,7 @@
     font-style: normal;
   }
   
-  .sedan-regular-italic {
+.sedan-regular-italic {
     font-family: "Sedan", serif;
     font-weight: 400;
     font-style: italic;
@@ -24,16 +23,112 @@ height: 70vh;
 }
 
 /*NavBar and Accent Section*/
-ul{
+.navbar-nav{
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: end;
 width: 100%;
 }
+
 .accent-div{
 background-color:whitesmoke;
 text-decoration:hidden;
 margin:0;
 padding:2px;
+}
+
+/*Page Header Section */
+
+.title-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+/*Filter Section*/
+.filter-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+.filter-wrapper{
+  display: flex;
+  list-style-type: none;
+}
+
+.filter-wrapper li{
+  margin:0 1.5rem;
+  padding-top: 1rem;
+}
+
+.filter-wrapper li a{
+  text-decoration:none;
+  color:whitesmoke;
+  padding:0.5rem 1rem;
+  border: 1px solid #262626;
+  background-color: #262626;
+  border-radius: 5px;
+}
+
+.filter-wrapper li a:hover{
+  background-color: whitesmoke;
+  color:#262626;
+}
+
+
+.search{
+  position:relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.search button{
+  position:absolute;
+  top: 0;
+  right: 0;
+  padding: 0.40rem ;
+  border: none;
+  background-color: #262626;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.search form{
+    display: flex;
+    flex-direction: row;
+}
+
+.search input{
+  border: 1px solid #262626;
+  outline: none;
+  border-radius: 5px;
+}
+
+/*Episode Library Section */
+
+.library-container{
+  margin: 10px;
+  padding: 10px;
+
+}
+
+
+/*Footer Section*/
+
+footer{
+  background-color: #262626;
+  color: #fff;
 }
